@@ -47,21 +47,21 @@ public class Game {
             a = "You win";
         } else if (userInput.equals("paper") && computerChoice.equals("rock")) {
             a = "You win";
-        } else if (userInput.equals("paper") && computerChoice.equals("scissor")) {
+        } else if (userInput.equals("paper") && computerChoice.equals("scissors")) {
             a = "You lose";
         } else if (userInput.equals("paper") && computerChoice.equals("spock")) {
             a = "You lose";
         } else if (userInput.equals("paper") && computerChoice.equals("lizard")) {
             a = "You lose";
-        } else if (userInput.equals("scissor") && computerChoice.equals("rock")) {
+        } else if (userInput.equals("scissors") && computerChoice.equals("rock")) {
             a = "You lose";
-        } else if (userInput.equals("scissor") && computerChoice.equals("paper")) {
+        } else if (userInput.equals("scissors") && computerChoice.equals("paper")) {
             a = "You win";
-        } else if (userInput.equals("scissor") && computerChoice.equals("spock")) {
+        } else if (userInput.equals("scissors") && computerChoice.equals("spock")) {
             a = "You lose";
-        } else if (userInput.equals("scissor") && computerChoice.equals("lizard")) {
+        } else if (userInput.equals("scissors") && computerChoice.equals("lizard")) {
             a = "You win";
-        } else if (userInput.equals("scissor") && computerChoice.equals("paper")) {
+        } else if (userInput.equals("scissors") && computerChoice.equals("paper")) {
             a = "You win";
         } else if (userInput.equals("lizard") && computerChoice.equals("paper")) {
             a = "You win";
@@ -69,7 +69,7 @@ public class Game {
             a = "You lose";
         } else if (userInput.equals("lizard") && computerChoice.equals("spock")) {
             a = "You win";
-        } else if (userInput.equals("lizard") && computerChoice.equals("scissor")) {
+        } else if (userInput.equals("lizard") && computerChoice.equals("scissors")) {
             a = "You lose";
         } else if (userInput.equals("spock") && computerChoice.equals("paper")) {
             a = "You lose";
